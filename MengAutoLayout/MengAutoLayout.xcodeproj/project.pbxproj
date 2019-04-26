@@ -13,6 +13,10 @@
 		8D37FED02266D512007A0D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D37FECF2266D512007A0D2A /* Assets.xcassets */; };
 		8D37FED32266D512007A0D2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D37FED12266D512007A0D2A /* LaunchScreen.storyboard */; };
 		8D37FED62266D512007A0D2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D37FED52266D512007A0D2A /* main.m */; };
+		8D3DBF1A2272F4C900B5B9E1 /* LCScrollViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3DBF192272F4C900B5B9E1 /* LCScrollViewTestViewController.m */; };
+		8D3DBF1D2272F56700B5B9E1 /* LCTextViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3DBF1C2272F56700B5B9E1 /* LCTextViewTestViewController.m */; };
+		8D3DBF202272F58000B5B9E1 /* LCTableViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3DBF1F2272F58000B5B9E1 /* LCTableViewTestViewController.m */; };
+		8D3DBF2322730A7A00B5B9E1 /* LCBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3DBF2222730A7A00B5B9E1 /* LCBaseTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		8D37FED22266D512007A0D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D37FED42266D512007A0D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D37FED52266D512007A0D2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D3DBF182272F4C900B5B9E1 /* LCScrollViewTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCScrollViewTestViewController.h; sourceTree = "<group>"; };
+		8D3DBF192272F4C900B5B9E1 /* LCScrollViewTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCScrollViewTestViewController.m; sourceTree = "<group>"; };
+		8D3DBF1B2272F56700B5B9E1 /* LCTextViewTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTextViewTestViewController.h; sourceTree = "<group>"; };
+		8D3DBF1C2272F56700B5B9E1 /* LCTextViewTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTextViewTestViewController.m; sourceTree = "<group>"; };
+		8D3DBF1E2272F58000B5B9E1 /* LCTableViewTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTableViewTestViewController.h; sourceTree = "<group>"; };
+		8D3DBF1F2272F58000B5B9E1 /* LCTableViewTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTableViewTestViewController.m; sourceTree = "<group>"; };
+		8D3DBF2122730A7900B5B9E1 /* LCBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBaseTableViewCell.h; sourceTree = "<group>"; };
+		8D3DBF2222730A7A00B5B9E1 /* LCBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBaseTableViewCell.m; sourceTree = "<group>"; };
 		B03C9918AC510075D5A6935E /* Pods-MengAutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengAutoLayout.release.xcconfig"; path = "Target Support Files/Pods-MengAutoLayout/Pods-MengAutoLayout.release.xcconfig"; sourceTree = "<group>"; };
 		FB69952D7C6E07A135D62D46 /* Pods-MengAutoLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengAutoLayout.debug.xcconfig"; path = "Target Support Files/Pods-MengAutoLayout/Pods-MengAutoLayout.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +96,14 @@
 				8D37FEC72266D512007A0D2A /* AppDelegate.m */,
 				8D37FEC92266D512007A0D2A /* ViewController.h */,
 				8D37FECA2266D512007A0D2A /* ViewController.m */,
+				8D3DBF1B2272F56700B5B9E1 /* LCTextViewTestViewController.h */,
+				8D3DBF1C2272F56700B5B9E1 /* LCTextViewTestViewController.m */,
+				8D3DBF182272F4C900B5B9E1 /* LCScrollViewTestViewController.h */,
+				8D3DBF192272F4C900B5B9E1 /* LCScrollViewTestViewController.m */,
+				8D3DBF1E2272F58000B5B9E1 /* LCTableViewTestViewController.h */,
+				8D3DBF1F2272F58000B5B9E1 /* LCTableViewTestViewController.m */,
+				8D3DBF2122730A7900B5B9E1 /* LCBaseTableViewCell.h */,
+				8D3DBF2222730A7A00B5B9E1 /* LCBaseTableViewCell.m */,
 				8D37FECF2266D512007A0D2A /* Assets.xcassets */,
 				8D37FED12266D512007A0D2A /* LaunchScreen.storyboard */,
 				8D37FED42266D512007A0D2A /* Info.plist */,
@@ -186,7 +206,11 @@
 			files = (
 				8D37FECB2266D512007A0D2A /* ViewController.m in Sources */,
 				8D37FED62266D512007A0D2A /* main.m in Sources */,
+				8D3DBF1D2272F56700B5B9E1 /* LCTextViewTestViewController.m in Sources */,
+				8D3DBF1A2272F4C900B5B9E1 /* LCScrollViewTestViewController.m in Sources */,
 				8D37FEC82266D512007A0D2A /* AppDelegate.m in Sources */,
+				8D3DBF2322730A7A00B5B9E1 /* LCBaseTableViewCell.m in Sources */,
+				8D3DBF202272F58000B5B9E1 /* LCTableViewTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
