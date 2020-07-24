@@ -1,0 +1,47 @@
+PODS:
+  - LCText (0.0.4):
+    - LCText/LabelCategory (= 0.0.4)
+    - LCText/LCTextView (= 0.0.4)
+    - LCText/TextDidChange (= 0.0.4)
+  - LCText/LabelCategory (0.0.4)
+  - LCText/LCTextView (0.0.4):
+    - LCText/TextDidChange
+  - LCText/TextDidChange (0.0.4)
+  - Masonry (1.1.0)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - LCText (= 0.0.4)
+  - Masonry (= 1.1.0)
+  - SDWebImage (= 4.4.6)
+  - YYWebImage (= 1.0.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LCText
+    - Masonry
+    - SDWebImage
+    - YYCache
+    - YYImage
+    - YYWebImage
+
+SPEC CHECKSUMS:
+  LCText: 793d7baa99afd8b1c1b6da8f75fe4cfa14082c53
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: f205c9be11e0df4b8aa0edcb085300f7715b79c5
+
+COCOAPODS: 1.7.4

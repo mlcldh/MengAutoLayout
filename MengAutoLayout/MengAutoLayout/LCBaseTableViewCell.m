@@ -8,6 +8,7 @@
 
 #import "LCBaseTableViewCell.h"
 #import "Masonry.h"
+#import "LCText.h"
 
 @implementation LCBaseTableViewCell
 
@@ -18,6 +19,7 @@
         [self titleLabel];
         [self subtitleLabel];
         [self contentLabel];
+        [self textView];
     }
     return self;
 }
@@ -58,16 +60,37 @@
         _contentLabel.textColor = [UIColor darkGrayColor];
         _contentLabel.font = [UIFont systemFontOfSize:15];
         _contentLabel.numberOfLines = 0;
-        _contentLabel.text = @"评论内容，最多140个字。我们在工作中经常会用到KVO，但是系统原生的KVO并不好用，很容易导致Crash。而且编写代码时，需要编写大量KVO相关的代码，由于不支持block的形式，代码会写的很分散。本篇文章对KVO的实现原理进行了详细的分析，并且简单的实现了一个KVO，来当做技术交流。由于系统提供的KVO存在很多问题，在文章的最下面给出了解决方案。";
+        _contentLabel.text = @"评论内容，最多140个字。我们在工作中经常会用到KVO，但是系统原生的KVO并不好用，很容易导致Crash。";
         [self.contentView addSubview:_contentLabel];
         [_contentLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.subtitleLabel.mas_bottom);
-            make.bottom.equalTo(self.contentView).offset(-10);
+//            make.bottom.equalTo(self.contentView).offset(-10);
             make.left.equalTo(self.titleLabel);
             make.right.equalTo(self.titleLabel);
         }];
     }
     return _contentLabel;
+}
+- (UITextView *)textView {
+    if (!_textView) {
+        _textView = [[UITextView alloc]init];
+        _textView.backgroundColor = [UIColor systemPinkColor];
+        _textView.scrollEnabled = NO;
+        _textView.text = @"This is a UITextView";
+        [_textView setLc_textDidChangeBlock:^(NSString * _Nonnull text) {
+            UITableView *tableView = (UITableView *)(self.nextResponder);
+//            [tableView reloadData];
+//            [tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:(UITableViewRowAnimationNone)];
+        }];
+        [self.contentView addSubview:_textView];
+        [_textView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.right.equalTo(self.contentLabel);
+            make.top.equalTo(self.contentLabel.mas_bottom).offset(10);
+            make.bottom.equalTo(self.contentView).offset(-10);
+            make.height.mas_greaterThanOrEqualTo(50);
+        }];
+    }
+    return _textView;
 }
 
 @end

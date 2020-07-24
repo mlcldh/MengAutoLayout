@@ -62,7 +62,7 @@
         _titleTextView.text = @"通过协议实现组件化解耦";
         [self.scrollView addSubview:_titleTextView];
         [_titleTextView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.equalTo(self.scrollView).offset(40);
+            make.left.equalTo(self.scrollView).offset(20);
             make.right.equalTo(self.view).offset(-40);
             make.top.equalTo(self.scrollView).offset(20);
         }];
@@ -72,7 +72,7 @@
 - (UIImageView *)avatarImageView {
     if (!_avatarImageView) {
         _avatarImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"avatar"]];
-        [self.view addSubview:_avatarImageView];
+        [self.scrollView addSubview:_avatarImageView];
         [_avatarImageView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(self.titleTextView);
             make.top.equalTo(self.titleTextView.mas_bottom).offset(20);
@@ -106,7 +106,7 @@
             make.left.equalTo(self.scrollView).offset(20);
             make.right.equalTo(self.view).offset(-20);
             make.top.equalTo(self.summaryTextView.mas_bottom).offset(20);
-            make.bottom.lessThanOrEqualTo(self.scrollView).offset(-20);
+            make.bottom.lessThanOrEqualTo(self.scrollView);
         }];
     }
     return _mainBodyTextView;

@@ -16,5 +16,7 @@
 @property (nonatomic,strong) UILabel *subtitleLabel;
 /***/
 @property (nonatomic,strong) UILabel *contentLabel;
+/***/
+@property (nonatomic,strong) UITextView *textView;
 
 @end

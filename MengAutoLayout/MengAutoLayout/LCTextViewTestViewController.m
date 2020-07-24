@@ -9,6 +9,8 @@
 #import "LCTextViewTestViewController.h"
 #import "Masonry.h"
 
+CGFloat const BottomOffset = - 20;
+
 @interface LCTextViewTestViewController ()
 
 @property (nonatomic, strong) UITextView *textView;//
@@ -39,26 +41,39 @@
         _textView.backgroundColor = [UIColor yellowColor];
         _textView.scrollEnabled = NO;
         _textView.text = @"我问电风扇我丑不丑,结果它摇了一个晚上的头。老司机带带我我要上昆明啊，老司机带带我我要进省城，要上昆明车子多，半路短我为什么。";
+        if (@available(iOS 11.0, *)) {
+            _textView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        }
+        UIButton *inputAccessoryView = [UIButton buttonWithType:(UIButtonTypeSystem)];
+        inputAccessoryView.bounds = CGRectMake(0, 0, 100, 30);
+        inputAccessoryView.backgroundColor = [UIColor lightGrayColor];
+        [inputAccessoryView setTitle:@"完成" forState:(UIControlStateNormal)];
+        [inputAccessoryView addTarget:self action:@selector(doneAction:) forControlEvents:(UIControlEventTouchUpInside)];
+        _textView.inputAccessoryView = inputAccessoryView;
         [self.view addSubview:_textView];
         [_textView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(self.view).offset(20);
             make.right.equalTo(self.view).offset(-20);
-            make.bottom.equalTo(self.view).offset(-20);
+            make.bottom.equalTo(self.view).offset(BottomOffset);
         }];
     }
     return _textView;
+}
+#pragma mark - Event
+- (void)doneAction:(UIButton *)button {
+    [self.textView resignFirstResponder];
 }
 #pragma mark - UIKeyboardWillShowNotification
 - (void)handleKeyboardWillShowNotification:(NSNotification *)notification {
     CGFloat keyboardHeight = CGRectGetHeight([notification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue]);
     [self.textView mas_updateConstraints:^(MASConstraintMaker *make) {
-         make.bottom.equalTo(self.view).offset(- keyboardHeight - 20);
+         make.bottom.equalTo(self.view).offset(- keyboardHeight + BottomOffset);
     }];
 }
 #pragma mark - UIKeyboardWillHideNotification
 - (void)handleKeyboardWillHideNotification:(NSNotification *)notification {
     [self.textView mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(self.view);
+        make.bottom.equalTo(self.view).offset(BottomOffset);
     }];
 }
 

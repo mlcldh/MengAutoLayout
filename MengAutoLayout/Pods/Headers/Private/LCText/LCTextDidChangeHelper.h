@@ -1,0 +1,1 @@
+../../../LCText/LCText/TextDidChange/LCTextDidChangeHelper.h

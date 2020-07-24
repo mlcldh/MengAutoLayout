@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		793841CED73E3924D6673BC0 /* libPods-MengAutoLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 807F7FA1F7F5388EF66C846A /* libPods-MengAutoLayout.a */; };
+		8D16CB1D24CB0649000820E3 /* MengUseSafeAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D16CB1C24CB0649000820E3 /* MengUseSafeAreaViewController.m */; };
 		8D37FEC82266D512007A0D2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D37FEC72266D512007A0D2A /* AppDelegate.m */; };
 		8D37FECB2266D512007A0D2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D37FECA2266D512007A0D2A /* ViewController.m */; };
 		8D37FED02266D512007A0D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D37FECF2266D512007A0D2A /* Assets.xcassets */; };
@@ -21,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		807F7FA1F7F5388EF66C846A /* libPods-MengAutoLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MengAutoLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D16CB1B24CB0649000820E3 /* MengUseSafeAreaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MengUseSafeAreaViewController.h; sourceTree = "<group>"; };
+		8D16CB1C24CB0649000820E3 /* MengUseSafeAreaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MengUseSafeAreaViewController.m; sourceTree = "<group>"; };
 		8D37FEC32266D512007A0D2A /* MengAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MengAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D37FEC62266D512007A0D2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D37FEC72266D512007A0D2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				8D3DBF192272F4C900B5B9E1 /* LCScrollViewTestViewController.m */,
 				8D3DBF1E2272F58000B5B9E1 /* LCTableViewTestViewController.h */,
 				8D3DBF1F2272F58000B5B9E1 /* LCTableViewTestViewController.m */,
+				8D16CB1B24CB0649000820E3 /* MengUseSafeAreaViewController.h */,
+				8D16CB1C24CB0649000820E3 /* MengUseSafeAreaViewController.m */,
 				8D3DBF2122730A7900B5B9E1 /* LCBaseTableViewCell.h */,
 				8D3DBF2222730A7A00B5B9E1 /* LCBaseTableViewCell.m */,
 				8D37FECF2266D512007A0D2A /* Assets.xcassets */,
@@ -209,6 +214,7 @@
 				8D3DBF1D2272F56700B5B9E1 /* LCTextViewTestViewController.m in Sources */,
 				8D3DBF1A2272F4C900B5B9E1 /* LCScrollViewTestViewController.m in Sources */,
 				8D37FEC82266D512007A0D2A /* AppDelegate.m in Sources */,
+				8D16CB1D24CB0649000820E3 /* MengUseSafeAreaViewController.m in Sources */,
 				8D3DBF2322730A7A00B5B9E1 /* LCBaseTableViewCell.m in Sources */,
 				8D3DBF202272F58000B5B9E1 /* LCTableViewTestViewController.m in Sources */,
 			);
@@ -342,7 +348,7 @@
 				INFOPLIST_FILE = MengAutoLayout/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.menglingchao.hehea;
+				PRODUCT_BUNDLE_IDENTIFIER = com.menglingchao.hehe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -358,7 +364,7 @@
 				INFOPLIST_FILE = MengAutoLayout/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.menglingchao.hehea;
+				PRODUCT_BUNDLE_IDENTIFIER = com.menglingchao.hehe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

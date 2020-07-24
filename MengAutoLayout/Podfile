@@ -11,3 +11,5 @@ pod 'SDWebImage', '4.4.6'
 #pod 'SDWebImage/WebP'
 
 pod 'YYWebImage', '1.0.5'
+
+pod 'LCText', '0.0.4'

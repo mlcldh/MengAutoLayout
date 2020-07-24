@@ -34,7 +34,7 @@
 #pragma mark - Getter
 - (NSArray *)titles {
     if (!_titles) {
-        _titles = @[@"UITextView根据内容自适应高度",@"UIScrollView contentSize根据子视图确定",@"UITableViewCell自适应高度",@"不同宽度屏幕适配",@"",];
+        _titles = @[@"UITextView根据内容自适应高度",@"UIScrollView contentSize根据子视图确定",@"UITableViewCell自适应高度", @"安全区域",@"不同宽度屏幕适配",@"",];
     }
     return _titles;
 }
@@ -69,7 +69,7 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     static NSArray *vcClassNames = nil;
     if (!vcClassNames) {
-        vcClassNames = @[@"LCTextViewTestViewController",@"LCScrollViewTestViewController",@"LCTableViewTestViewController",@"",];
+        vcClassNames = @[@"LCTextViewTestViewController", @"LCScrollViewTestViewController", @"LCTableViewTestViewController", @"MengUseSafeAreaViewController",];
     }
     Class class = NSClassFromString(vcClassNames[indexPath.row]);
     UIViewController *vc = [[class alloc]init];
