@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@gitlab.ximalaya.com:iphone/XMSpecs.git'
+platform :ios,			'8.0'
+inhibit_all_warnings!
+
+target:'MengAutoLayout'
+
+#pod 'Masonry', '1.1.0'
+pod 'SnapKit','4.2.0'
