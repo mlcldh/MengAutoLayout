@@ -8,7 +8,7 @@
 
 #import "LCBaseTableViewCell.h"
 #import "Masonry.h"
-#import "LCText.h"
+//#import "LCText.h"
 
 @implementation LCBaseTableViewCell
 
@@ -77,11 +77,11 @@
         _textView.backgroundColor = [UIColor systemPinkColor];
         _textView.scrollEnabled = NO;
         _textView.text = @"This is a UITextView";
-        [_textView setLc_textDidChangeBlock:^(NSString * _Nonnull text) {
-            UITableView *tableView = (UITableView *)(self.nextResponder);
-//            [tableView reloadData];
-//            [tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:(UITableViewRowAnimationNone)];
-        }];
+//        [_textView setLc_textDidChangeBlock:^(NSString * _Nonnull text) {
+//            UITableView *tableView = (UITableView *)(self.nextResponder);
+////            [tableView reloadData];
+////            [tableView reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:(UITableViewRowAnimationNone)];
+//        }];
         [self.contentView addSubview:_textView];
         [_textView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.right.equalTo(self.contentLabel);
