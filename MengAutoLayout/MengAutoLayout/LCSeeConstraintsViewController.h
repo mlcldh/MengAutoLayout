@@ -1,8 +1,8 @@
 //
-//  MengUseSafeAreaViewController.h
+//  LCSeeConstraintsViewController.h
 //  MengAutoLayout
 //
-//  Created by menglingchao on 2020/7/24.
+//  Created by menglingchao on 2020/8/3.
 //  Copyright © 2020 MengLingChao. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MengUseSafeAreaViewController : UIViewController
+@interface LCSeeConstraintsViewController : UIViewController
 
 @end
 

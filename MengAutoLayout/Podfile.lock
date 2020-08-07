@@ -8,6 +8,9 @@ PODS:
     - LCText/TextDidChange
   - LCText/TextDidChange (0.0.4)
   - Masonry (1.1.0)
+  - MLCKit/Category (0.0.2)
+  - MLCKit/Macro (0.0.2)
+  - MLCKit/Proxy (0.0.2)
   - SDWebImage (4.4.6):
     - SDWebImage/Core (= 4.4.6)
   - SDWebImage/Core (4.4.6)
@@ -22,11 +25,14 @@ PODS:
 DEPENDENCIES:
   - LCText (= 0.0.4)
   - Masonry (= 1.1.0)
+  - MLCKit/Category (from `https://github.com/mlcldh/MLCKit.git`, commit `4a5635b`)
+  - MLCKit/Macro (from `https://github.com/mlcldh/MLCKit.git`, commit `4a5635b`)
+  - MLCKit/Proxy (from `https://github.com/mlcldh/MLCKit.git`, commit `4a5635b`)
   - SDWebImage (= 4.4.6)
   - YYWebImage (= 1.0.5)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - LCText
     - Masonry
     - SDWebImage
@@ -34,14 +40,25 @@ SPEC REPOS:
     - YYImage
     - YYWebImage
 
+EXTERNAL SOURCES:
+  MLCKit:
+    :commit: 4a5635b
+    :git: https://github.com/mlcldh/MLCKit.git
+
+CHECKOUT OPTIONS:
+  MLCKit:
+    :commit: 4a5635b
+    :git: https://github.com/mlcldh/MLCKit.git
+
 SPEC CHECKSUMS:
   LCText: 793d7baa99afd8b1c1b6da8f75fe4cfa14082c53
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MLCKit: 08d755905d5e875491da32ec45f40e357ff797a8
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: f205c9be11e0df4b8aa0edcb085300f7715b79c5
+PODFILE CHECKSUM: 0e552709230e4f22ef5df7d0435073121ef6e0bf
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.9.3

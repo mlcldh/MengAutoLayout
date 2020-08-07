@@ -13,3 +13,7 @@ pod 'SDWebImage', '4.4.6'
 pod 'YYWebImage', '1.0.5'
 
 pod 'LCText', '0.0.4'
+
+pod 'MLCKit/Category', :git => 'https://github.com/mlcldh/MLCKit.git', :commit => '4a5635b'
+pod 'MLCKit/Macro', :git => 'https://github.com/mlcldh/MLCKit.git', :commit => '4a5635b'
+pod 'MLCKit/Proxy', :git => 'https://github.com/mlcldh/MLCKit.git', :commit => '4a5635b'

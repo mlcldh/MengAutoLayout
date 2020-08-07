@@ -40,7 +40,7 @@ CGFloat const BottomOffset = - 20;
         _textView = [[UITextView alloc]init];
         _textView.backgroundColor = [UIColor yellowColor];
         _textView.scrollEnabled = NO;
-        _textView.text = @"我问电风扇我丑不丑,结果它摇了一个晚上的头。老司机带带我我要上昆明啊，老司机带带我我要进省城，要上昆明车子多，半路短我为什么。";
+        _textView.text = @"我问电风扇我丑不丑,结果它摇了一个晚上的头。我问电风扇我丑不丑,结果它摇了一个晚上的头。我问电风扇我丑不丑,结果它摇了一个晚上的头。";
         if (@available(iOS 11.0, *)) {
             _textView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         }
