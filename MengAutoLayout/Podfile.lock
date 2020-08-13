@@ -6,9 +6,9 @@ PODS:
 
 DEPENDENCIES:
   - Masonry (= 1.1.0)
-  - MLCKit/Category (from `https://github.com/mlcldh/MLCKit.git`, commit `4a5635b`)
-  - MLCKit/Macro (from `https://github.com/mlcldh/MLCKit.git`, commit `4a5635b`)
-  - MLCKit/Proxy (from `https://github.com/mlcldh/MLCKit.git`, commit `4a5635b`)
+  - MLCKit/Category (from `https://github.com/mlcldh/MLCKit.git`, commit `f20fb29`)
+  - MLCKit/Macro (from `https://github.com/mlcldh/MLCKit.git`, commit `f20fb29`)
+  - MLCKit/Proxy (from `https://github.com/mlcldh/MLCKit.git`, commit `f20fb29`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -16,18 +16,18 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   MLCKit:
-    :commit: 4a5635b
+    :commit: f20fb29
     :git: https://github.com/mlcldh/MLCKit.git
 
 CHECKOUT OPTIONS:
   MLCKit:
-    :commit: 4a5635b
+    :commit: f20fb29
     :git: https://github.com/mlcldh/MLCKit.git
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MLCKit: 08d755905d5e875491da32ec45f40e357ff797a8
 
-PODFILE CHECKSUM: 29676a043245b2acd528e65618a4ee1cf49bc8c6
+PODFILE CHECKSUM: 3a21ba9e7cd4386291ac8def64671c6c8b4aba55
 
 COCOAPODS: 1.9.3

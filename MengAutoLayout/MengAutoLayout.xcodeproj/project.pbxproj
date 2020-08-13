@@ -19,6 +19,7 @@
 		8D3DBF202272F58000B5B9E1 /* LCTableViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3DBF1F2272F58000B5B9E1 /* LCTableViewTestViewController.m */; };
 		8D3DBF2322730A7A00B5B9E1 /* LCBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3DBF2222730A7A00B5B9E1 /* LCBaseTableViewCell.m */; };
 		8D5E234324DD600A00DB72A0 /* MengDistributeViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E234224DD600A00DB72A0 /* MengDistributeViewsViewController.m */; };
+		8D641F7624E518D600E61907 /* MengCombineViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D641F7524E518D600E61907 /* MengCombineViewsViewController.m */; };
 		8D82FE6924D94FAF007102A3 /* LCSizeMultiplierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D82FE6824D94FAF007102A3 /* LCSizeMultiplierViewController.m */; };
 		8DE8D01624D811740045C5D4 /* LCAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE8D01524D811740045C5D4 /* LCAnimationViewController.m */; };
 		8DE8D01D24D8250B0045C5D4 /* LCScrollViewProblemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE8D01C24D8250B0045C5D4 /* LCScrollViewProblemViewController.m */; };
@@ -48,6 +49,8 @@
 		8D3DBF2222730A7A00B5B9E1 /* LCBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBaseTableViewCell.m; sourceTree = "<group>"; };
 		8D5E234124DD600A00DB72A0 /* MengDistributeViewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MengDistributeViewsViewController.h; sourceTree = "<group>"; };
 		8D5E234224DD600A00DB72A0 /* MengDistributeViewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MengDistributeViewsViewController.m; sourceTree = "<group>"; };
+		8D641F7424E518D600E61907 /* MengCombineViewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MengCombineViewsViewController.h; sourceTree = "<group>"; };
+		8D641F7524E518D600E61907 /* MengCombineViewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MengCombineViewsViewController.m; sourceTree = "<group>"; };
 		8D82FE6724D94FAF007102A3 /* LCSizeMultiplierViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCSizeMultiplierViewController.h; sourceTree = "<group>"; };
 		8D82FE6824D94FAF007102A3 /* LCSizeMultiplierViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCSizeMultiplierViewController.m; sourceTree = "<group>"; };
 		8DE8D01424D811740045C5D4 /* LCAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCAnimationViewController.h; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				8D82FE6824D94FAF007102A3 /* LCSizeMultiplierViewController.m */,
 				8D5E234124DD600A00DB72A0 /* MengDistributeViewsViewController.h */,
 				8D5E234224DD600A00DB72A0 /* MengDistributeViewsViewController.m */,
+				8D641F7424E518D600E61907 /* MengCombineViewsViewController.h */,
+				8D641F7524E518D600E61907 /* MengCombineViewsViewController.m */,
 				8D3DBF2122730A7900B5B9E1 /* LCBaseTableViewCell.h */,
 				8D3DBF2222730A7A00B5B9E1 /* LCBaseTableViewCell.m */,
 				8D37FECF2266D512007A0D2A /* Assets.xcassets */,
@@ -240,6 +245,7 @@
 				8D37FED62266D512007A0D2A /* main.m in Sources */,
 				8D3DBF1D2272F56700B5B9E1 /* LCTextViewTestViewController.m in Sources */,
 				8D3DBF1A2272F4C900B5B9E1 /* LCScrollViewTestViewController.m in Sources */,
+				8D641F7624E518D600E61907 /* MengCombineViewsViewController.m in Sources */,
 				8D37FEC82266D512007A0D2A /* AppDelegate.m in Sources */,
 				8DE8D01624D811740045C5D4 /* LCAnimationViewController.m in Sources */,
 				8D5E234324DD600A00DB72A0 /* MengDistributeViewsViewController.m in Sources */,
