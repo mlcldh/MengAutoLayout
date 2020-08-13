@@ -58,28 +58,28 @@
     }];
     
     [button.constraints enumerateObjectsUsingBlock:^(__kindof NSLayoutConstraint * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        NSLog(@"menglc button %@", obj);
+        NSLog(@"menglc button %@, %@", obj, @(button.frame));
     }];
     
     [button2.constraints enumerateObjectsUsingBlock:^(__kindof NSLayoutConstraint * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        NSLog(@"menglc button2 %@", obj);
+        NSLog(@"menglc button2 %@, %@", obj, @(button2.frame));
     }];
     
     [smallButton.constraints enumerateObjectsUsingBlock:^(__kindof NSLayoutConstraint * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        NSLog(@"menglc smallButton %@", obj);
+        NSLog(@"menglc smallButton %@, %@", obj, @(smallButton.frame));
     }];
-    
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    NSLog(@"menglc wait 。。。😈😈😈😈😈😈");
+    dispatch_async(dispatch_get_main_queue(), ^{//此时会发现，button、button2、smallButton的frame都更新了，自身控件的约束也看到了
         [button.constraints enumerateObjectsUsingBlock:^(__kindof NSLayoutConstraint * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-            NSLog(@"menglc button 2 %@", obj);
+            NSLog(@"menglc button 2 %@, %@", obj, @(button.frame));
         }];
         
         [button2.constraints enumerateObjectsUsingBlock:^(__kindof NSLayoutConstraint * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-            NSLog(@"menglc button2 2 %@", obj);
+            NSLog(@"menglc button2 2 %@, %@", obj, @(button2.frame));
         }];
         
         [smallButton.constraints enumerateObjectsUsingBlock:^(__kindof NSLayoutConstraint * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-            NSLog(@"menglc smallButton 2 %@", obj);
+            NSLog(@"menglc smallButton 2 %@, %@", obj, @(smallButton.frame));
         }];
     });
 }

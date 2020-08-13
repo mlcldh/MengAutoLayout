@@ -28,6 +28,7 @@
     button.backgroundColor = [UIColor purpleColor];
     [button setTitleColor:[UIColor whiteColor] forState:(UIControlStateNormal)];
     [button setTitle:@"请在刘海屏/非刘海屏上旋转屏幕试试" forState:(UIControlStateNormal)];
+//    button.transform = CGAffineTransformMakeScale(0.5, 0.5);
     [self.view addSubview:button];
     [button mas_makeConstraints:^(MASConstraintMaker *make) {
         if (@available(iOS 11.0, *)) {

@@ -24,6 +24,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     [self tableView];
+    [self logSomething];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -54,6 +55,7 @@
     if (! _tableView) {
         _tableView = [[UITableView alloc]initWithFrame:CGRectZero style:(UITableViewStylePlain)];
         _tableView.estimatedRowHeight = 44.0f;
+        _tableView.rowHeight = UITableViewAutomaticDimension;
         _tableView.delegate = self;
         _tableView.dataSource = self;
         [self.view addSubview:_tableView];
@@ -78,7 +80,7 @@
 }
 #pragma mark -
 - (void)logSomething {
-    NSLog(@"tableview %@,%@",UITableViewIndexSearch,@(UITableViewAutomaticDimension));
+    NSLog(@"menglc tableview %@,%@",UITableViewIndexSearch,@(UITableViewAutomaticDimension));
     NSLog(@"%@,%@",UICollectionElementKindSectionHeader,UICollectionElementKindSectionFooter);
     //NSLog(@"%@",NSStringFromCGSize(UICollectionViewFlowLayoutAutomaticSize));
 }
