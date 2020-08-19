@@ -33,7 +33,7 @@ class LCUseSafeAreaViewController: UIViewController {
                 make.right.equalTo(view.safeAreaLayoutGuide.snp.right)
                 make.top.equalTo(view.safeAreaLayoutGuide.snp.top)
                 make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
-            } else {
+            } else if #available(iOS 7.0, *) {
                 make.left.right.equalToSuperview()
                 make.top.equalTo(topLayoutGuide.snp.bottom)
                 make.bottom.equalTo(bottomLayoutGuide.snp.top)
