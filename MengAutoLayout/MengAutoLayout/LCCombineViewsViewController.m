@@ -1,20 +1,20 @@
 //
-//  MengCombineViewsViewController.m
+//  LCCombineViewsViewController.m
 //  MengAutoLayout
 //
 //  Created by menglingchao on 2020/8/13.
 //  Copyright © 2020 MengLingChao. All rights reserved.
 //
 
-#import "MengCombineViewsViewController.h"
+#import "LCCombineViewsViewController.h"
 #import "Masonry.h"
 #import "NSArray+MLCKit.h"
 
-@interface MengCombineViewsViewController ()
+@interface LCCombineViewsViewController ()
 
 @end
 
-@implementation MengCombineViewsViewController
+@implementation LCCombineViewsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

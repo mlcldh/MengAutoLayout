@@ -1,8 +1,8 @@
 //
-//  MengDistributeViewsViewController.h
+//  LCCombineViewsViewController.h
 //  MengAutoLayout
 //
-//  Created by menglingchao on 2020/8/7.
+//  Created by menglingchao on 2020/8/13.
 //  Copyright © 2020 MengLingChao. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MengDistributeViewsViewController : UIViewController
+@interface LCCombineViewsViewController : UIViewController
 
 @end
 

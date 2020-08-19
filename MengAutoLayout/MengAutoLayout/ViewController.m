@@ -34,7 +34,7 @@
 #pragma mark - Getter
 - (NSArray *)titles {
     if (!_titles) {
-        _titles = @[@"UITextView根据内容自适应高度", @"UIScrollView问题", @"UIScrollView contentSize根据子视图确定", @"UITableViewCell自适应高度", @"查看约束", @"动画", @"安全区域", @"基于其他视图宽高比例的约束", @"批量布局子视图", @"批量连接视图"];
+        _titles = @[@"UITextView根据内容自适应高度", @"UIScrollView问题", @"UIScrollView contentSize根据子视图确定", @"UITableViewCell自适应高度", @"查看约束", @"动画", @"安全区域", @"基于其他视图宽高比例的约束", @"批量布局子视图", @"批量连接视图" ,@"使用iOS 9 api"];
     }
     return _titles;
 }
@@ -69,7 +69,7 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     static NSArray *vcClassNames = nil;
     if (!vcClassNames) {
-        vcClassNames = @[@"LCTextViewTestViewController", @"LCScrollViewProblemViewController", @"LCScrollViewTestViewController", @"LCTableViewTestViewController", @"LCSeeConstraintsViewController", @"LCAnimationViewController", @"LCUseSafeAreaViewController", @"LCSizeMultiplierViewController", @"MengDistributeViewsViewController", @"MengCombineViewsViewController"];
+        vcClassNames = @[@"LCTextViewTestViewController", @"LCScrollViewProblemViewController", @"LCScrollViewTestViewController", @"LCTableViewTestViewController", @"LCSeeConstraintsViewController", @"LCAnimationViewController", @"LCUseSafeAreaViewController", @"LCSizeMultiplierViewController", @"LCDistributeViewsViewController", @"LCCombineViewsViewController", @"LCNewApiViewsViewController"];
     }
     Class class = NSClassFromString(vcClassNames[indexPath.row]);
     UIViewController *vc = [[class alloc]init];

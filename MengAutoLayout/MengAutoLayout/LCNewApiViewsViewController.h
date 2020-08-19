@@ -1,8 +1,8 @@
 //
-//  MengCombineViewsViewController.h
+//  LCNewApiViewsViewController.h
 //  MengAutoLayout
 //
-//  Created by menglingchao on 2020/8/13.
+//  Created by menglingchao on 2020/8/18.
 //  Copyright © 2020 MengLingChao. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MengCombineViewsViewController : UIViewController
+@interface LCNewApiViewsViewController : UIViewController
 
 @end
 

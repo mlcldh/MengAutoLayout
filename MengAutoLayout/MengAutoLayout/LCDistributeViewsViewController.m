@@ -1,19 +1,19 @@
 //
-//  MengDistributeViewsViewController.m
+//  LCDistributeViewsViewController.m
 //  MengAutoLayout
 //
 //  Created by menglingchao on 2020/8/7.
 //  Copyright © 2020 MengLingChao. All rights reserved.
 //
 
-#import "MengDistributeViewsViewController.h"
+#import "LCDistributeViewsViewController.h"
 #import "Masonry.h"
 
-@interface MengDistributeViewsViewController ()
+@interface LCDistributeViewsViewController ()
 
 @end
 
-@implementation MengDistributeViewsViewController
+@implementation LCDistributeViewsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
