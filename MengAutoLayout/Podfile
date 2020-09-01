@@ -6,6 +6,6 @@ target:'MengAutoLayout'
 
 pod 'Masonry', '1.1.0'
 
-pod 'MLCKit/Category', :git => 'https://github.com/mlcldh/MLCKit.git', :commit => 'f20fb29'
-pod 'MLCKit/Macro', :git => 'https://github.com/mlcldh/MLCKit.git', :commit => 'f20fb29'
-pod 'MLCKit/Proxy', :git => 'https://github.com/mlcldh/MLCKit.git', :commit => 'f20fb29'
+pod 'MLCKit/Category', :git => 'https://github.com/mlcldh/MLCKit.git', :commit => '36d840a'
+pod 'MLCKit/Macro', :git => 'https://github.com/mlcldh/MLCKit.git', :commit => '36d840a'
+pod 'MLCKit/Proxy', :git => 'https://github.com/mlcldh/MLCKit.git', :commit => '36d840a'

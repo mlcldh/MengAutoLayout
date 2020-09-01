@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		793841CED73E3924D6673BC0 /* libPods-MengAutoLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 807F7FA1F7F5388EF66C846A /* libPods-MengAutoLayout.a */; };
+		8D0E725D24FE580200C52EE4 /* LCUseConstraintPurelyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E725C24FE580200C52EE4 /* LCUseConstraintPurelyViewController.m */; };
 		8D16CB1D24CB0649000820E3 /* LCUseSafeAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D16CB1C24CB0649000820E3 /* LCUseSafeAreaViewController.m */; };
 		8D1DE5ED24EBFEC500BF61F3 /* LCNewApiViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1DE5EC24EBFEC500BF61F3 /* LCNewApiViewsViewController.m */; };
 		8D37FEC82266D512007A0D2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D37FEC72266D512007A0D2A /* AppDelegate.m */; };
@@ -29,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		807F7FA1F7F5388EF66C846A /* libPods-MengAutoLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MengAutoLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0E725B24FE580200C52EE4 /* LCUseConstraintPurelyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCUseConstraintPurelyViewController.h; sourceTree = "<group>"; };
+		8D0E725C24FE580200C52EE4 /* LCUseConstraintPurelyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCUseConstraintPurelyViewController.m; sourceTree = "<group>"; };
 		8D16CB1B24CB0649000820E3 /* LCUseSafeAreaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCUseSafeAreaViewController.h; sourceTree = "<group>"; };
 		8D16CB1C24CB0649000820E3 /* LCUseSafeAreaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCUseSafeAreaViewController.m; sourceTree = "<group>"; };
 		8D1DE5EB24EBFEC500BF61F3 /* LCNewApiViewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCNewApiViewsViewController.h; sourceTree = "<group>"; };
@@ -140,6 +143,8 @@
 				8D5E234224DD600A00DB72A0 /* LCDistributeViewsViewController.m */,
 				8D641F7424E518D600E61907 /* LCCombineViewsViewController.h */,
 				8D641F7524E518D600E61907 /* LCCombineViewsViewController.m */,
+				8D0E725B24FE580200C52EE4 /* LCUseConstraintPurelyViewController.h */,
+				8D0E725C24FE580200C52EE4 /* LCUseConstraintPurelyViewController.m */,
 				8D1DE5EB24EBFEC500BF61F3 /* LCNewApiViewsViewController.h */,
 				8D1DE5EC24EBFEC500BF61F3 /* LCNewApiViewsViewController.m */,
 				8D3DBF2122730A7900B5B9E1 /* LCBaseTableViewCell.h */,
@@ -245,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D37FECB2266D512007A0D2A /* ViewController.m in Sources */,
+				8D0E725D24FE580200C52EE4 /* LCUseConstraintPurelyViewController.m in Sources */,
 				8DE8D02024D827490045C5D4 /* LCSeeConstraintsViewController.m in Sources */,
 				8D82FE6924D94FAF007102A3 /* LCSizeMultiplierViewController.m in Sources */,
 				8D37FED62266D512007A0D2A /* main.m in Sources */,

@@ -63,7 +63,7 @@
     [button mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.top.equalTo(self.view).offset(50);
     }];
-    
+    NSLog(@"menglc self.view.constraints %@", self.view.constraints);
 }
 
 @end
