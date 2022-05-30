@@ -27,7 +27,7 @@ class LCUseSafeAreaViewController: UIViewController {
         button.setTitleColor(.white, for: .normal)
         button.setTitle("请在刘海屏/非刘海屏上旋转屏幕试试", for: .normal)
         view.addSubview(button)
-        button.snp_makeConstraints { (make) in
+        button.snp.makeConstraints { (make) in
             if #available(iOS 11.0, *) {
                 make.left.equalTo(view.safeAreaLayoutGuide.snp.left)
                 make.right.equalTo(view.safeAreaLayoutGuide.snp.right)
